@@ -21,3 +21,23 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.navSection {
+  justify-content: center;
+}
+
+.navSection ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  border-bottom: solid 2px black;
+}
+
+.navSection ul li {
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.navSection ul li a {
+  text-decoration: none;
+}

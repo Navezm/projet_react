@@ -6,87 +6,89 @@ export class NavSection extends Component {
     render() {
         return (
             <Fragment>
-                <section >
-                    <ul className="d-flex">
+                <section className="container" >
+                    <div className="row navSection">
+                    <ul className="navTri">
                         <li>
-                            <a href="">A</a>
+                            <a href="#top">A</a>
                         </li>
                         <li>
-                            <a href="">B</a>
+                            <a href="#top">B</a>
                         </li>
                         <li>
-                            <a href="">C</a>
+                            <a href="#top">C</a>
                         </li>
                         <li>
-                            <a href="">D</a>
+                            <a href="#top">D</a>
                         </li>
                         <li>
-                            <a href="">E</a>
+                            <a href="#top">E</a>
                         </li>
                         <li>
-                            <a href="">F</a>
+                            <a href="#top">F</a>
                         </li>
                         <li>
-                            <a href="">G</a>
+                            <a href="#top">G</a>
                         </li>
                         <li>
-                            <a href="">H</a>
+                            <a href="#top">H</a>
                         </li>
                         <li>
-                            <a href="">I</a>
+                            <a href="#top">I</a>
                         </li>
                         <li>
-                            <a href="">J</a>
+                            <a href="#top">J</a>
                         </li>
                         <li>
-                            <a href="">K</a>
+                            <a href="#top">K</a>
                         </li>
                         <li>
-                            <a href="">L</a>
+                            <a href="#top">L</a>
                         </li>
                         <li>
-                            <a href="">M</a>
+                            <a href="#top">M</a>
                         </li>
                         <li>
-                            <a href="">N</a>
+                            <a href="#top">N</a>
                         </li>
                         <li>
-                            <a href="">O</a>
+                            <a href="#top">O</a>
                         </li>
                         <li>
-                            <a href="">P</a>
+                            <a href="#top">P</a>
                         </li>
                         <li>
-                            <a href="">Q</a>
+                            <a href="#top">Q</a>
                         </li>
                         <li>
-                            <a href="">R</a>
+                            <a href="#top">R</a>
                         </li>
                         <li>
-                            <a href="">S</a>
+                            <a href="#top">S</a>
                         </li>
                         <li>
-                            <a href="">T</a>
+                            <a href="#top">T</a>
                         </li>
                         <li>
-                            <a href="">U</a>
+                            <a href="#top">U</a>
                         </li>
                         <li>
-                            <a href="">V</a>
+                            <a href="#top">V</a>
                         </li>
                         <li>
-                            <a href="">W</a>
+                            <a href="#top">W</a>
                         </li>
                         <li>
-                            <a href="">X</a>
+                            <a href="#top">X</a>
                         </li>
                         <li>
-                            <a href="">Y</a>
+                            <a href="#top">Y</a>
                         </li>
                         <li>
-                            <a href="">Z</a>
+                            <a href="#top">Z</a>
                         </li>
                     </ul>
+                    </div>
                 </section>
             </Fragment>
         )

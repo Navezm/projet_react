@@ -16,8 +16,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Shingeki no Kyojin</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -29,8 +28,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Death Note</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -42,8 +40,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Demon Slayer</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -55,8 +52,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Tower of God</Card.Title>
                             <Card.Text>
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -68,9 +64,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Psyren</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -98,8 +92,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Demon Slayer</Card.Title>
                             <Card.Text>
-                                This card has supporting text below as a natural lead-in to additional
-                                content.{' '}
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -111,9 +104,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Death Note</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -125,9 +116,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Shingeki no Kyojin</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -139,9 +128,7 @@ export class Carousel1 extends Component {
                             <Card.Body>
                             <Card.Title>Tower of God</Card.Title>
                             <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to
-                                show that equal height action.
+                            Luffy, un jeune garçon, rêve de devenir le Roi des Pirates en trouvant le One Piece, le trésor ultime rassemblé par Gol D. Roger, le seul pirate à avoir jamais porté le titre de Roi des Pirates...
                             </Card.Text>
                             </Card.Body>
                             <Card.Footer>
