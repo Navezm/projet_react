@@ -1,4 +1,7 @@
-#h1_manga {
-  color: red;
-  text-align: center;
+.div_explication_manga {
+  background-color: #F2F2F0;
+}
+
+.div_titre_manga {
+  background-color: #8C7F77;
 }
