@@ -1,1 +1,23 @@
-/* No CSS */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar .navLogo {
+  height: 50px;
+}
+
+.navBar .navList {
+  display: flex;
+  align-items: center;
+}
+
+.navBar .navList .navHome {
+  margin-left: 16px;
+}
+
+.navBar .navList .navManga {
+  margin-left: 10px;
+  margin-right: 10px;
+}

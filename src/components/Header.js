@@ -1,13 +1,14 @@
 import React, { Component, Fragment } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from "./header/Nav"
+// import {Container} from 'react-bootstrap';
 export class Header extends Component {
     render() {
         return (
             <Fragment>
-                <Container>
-                    <Navbar expand="lg" variant="light" bg="light">
-                        <Navbar.Brand href="#">Navbar</Navbar.Brand>
-                    </Navbar>
-                </Container>
+                <header>
+                    <Nav />
+                </header>
             </Fragment>
         )
     }

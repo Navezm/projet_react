@@ -1,0 +1,24 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navLogo {
+        height: 50px;
+    }
+
+    .navList {
+        display: flex;
+        align-items: center;
+
+        .navHome {
+            margin-left: 16px;
+        }
+
+        .navManga {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    }
+}
