@@ -36,7 +36,9 @@ class ExplicationManga extends Component{
                                 <div id="div_manga_description" className="col-lg-10 col-sm-9 rounded">
                                     {
                                         this.props.manga.map((elem)=>{
-                                            return(<ExplPart2 content={elem}/>)
+                                            return(
+                                                <ExplPart2 content={elem}/>
+                                            )
                                         })
                                     }
                                     {/* Partie accès chapitre & autre */}
