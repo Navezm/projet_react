@@ -12,9 +12,17 @@ a:hover {
   cursor: pointer;
 }
 
-#a_navigation {
+.div_nav_scan {
+  background-color: #8C7F77;
+}
+
+.a_navigation {
   background-color: #DDDDDD;
   padding: 1%;
+}
+
+#root {
+  background-color: black;
 }
 
 #span_manga {
@@ -59,10 +67,6 @@ a:hover {
 .btn_sub:hover {
   color: white !important;
   background-color: #A6ACB4;
-}
-
-#root {
-  background-color: black;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
