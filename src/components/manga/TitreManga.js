@@ -10,14 +10,14 @@ class TitreManga extends Component{
     render(){
         return(
             <Fragment>
-                <div className="row rounded div_titre_manga">
+                <div className="row rounded div_titre_manga mt-2">
                     <div className="col-6 d-flex align-items-center">
                         <h4 className="text-white m-0">{this.props.name}</h4>
                     </div>
                     <div className="col-6 d-flex justify-content-end align-items-center text-white-50">
-                        <FontAwesomeIcon icon={faSmile}/> <span className="mr-3 ml-1">3251</span>
-                        <FontAwesomeIcon icon={faMeh}/> <span className="mr-3 ml-1">482</span>
-                        <FontAwesomeIcon icon={faFrown}/> <span className="mr-3 ml-1">25</span>
+                        <FontAwesomeIcon icon={faSmile}/> <span className="mr-3 ml-1">{this.props.nb1}</span>
+                        <FontAwesomeIcon icon={faMeh}/> <span className="mr-3 ml-1">{this.props.nb2}</span>
+                        <FontAwesomeIcon icon={faFrown}/> <span className="mr-3 ml-1">{this.props.nb3}</span>
                     </div>
                 </div>
             </Fragment>

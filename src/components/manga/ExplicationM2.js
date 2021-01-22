@@ -4,7 +4,7 @@ class ExplPart2 extends Component {
     render(){
         return(
             <Fragment>
-                <p className="m-0 mb-2 text-justify div_explication_manga">{this.props.content}</p>
+                <p className="m-0 mb-2 text-justify div_explication_manga px-1">{this.props.content}</p>
             </Fragment>
         );
     };
