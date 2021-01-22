@@ -8,9 +8,9 @@ export class Nav extends Component {
                 <section className="container navBar">
                     <nav className='row navList'>
                         <img src="./img/manga.jpg" className='navLogo' alt=""/>
-                        <a href="#top" className="navHome">HOME</a>
-                        <a href="#top" className="navManga">MANGA</a>
-                        <a href="#top">SCAN</a>
+                        <a href="#top" className="navHome couleur2">HOME</a>
+                        <a href="#top" className="navManga couleur2">MANGA</a>
+                        <a href="#top" className="couleur2">SCAN</a>
                     </nav>
                     <div>
                         <input type="text" placeholder="Chercher par manga"/>

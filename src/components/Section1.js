@@ -7,7 +7,7 @@ export class Section1 extends Component {
         return (
             <Fragment>
                 <section>
-                <Carousel/>
+                    <Carousel/>
                 </section>
             </Fragment>
         )
