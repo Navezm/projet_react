@@ -1,17 +1,15 @@
 import React, { Component, Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from "./section/Carousel1";
+import FooterAccueil from "./footer/FooterAccueil";
 
-export class Section1 extends Component {
+export class Footer extends Component {
     render() {
         return (
             <Fragment>
-                <section>
-                    <Carousel/>
-                </section>
+                <FooterAccueil />
             </Fragment>
         )
     }
 }
 
-export default Section1
+export default Footer

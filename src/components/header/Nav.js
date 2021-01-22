@@ -5,6 +5,7 @@ export class Nav extends Component {
     render() {
         return (
             <Fragment>
+
                 <section className="container navBar">
                     <nav className='row navList'>
                         <img src="./img/manga.jpg" className='navLogo' alt=""/>

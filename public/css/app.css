@@ -98,6 +98,14 @@
   background-color: red !important;
 }
 
+.footerBas {
+  list-style: none;
+}
+
+.bas {
+  background-color: #F4F1E8;
+}
+
 a {
   all: unset;
 }
