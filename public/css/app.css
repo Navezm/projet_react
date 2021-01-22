@@ -3,6 +3,20 @@
   src: url(../fonts/mangat.ttf);
 }
 
+a {
+  all: unset;
+}
+
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#a_navigation {
+  background-color: #DDDDDD;
+  padding: 1%;
+}
+
 #span_manga {
   color: #8C7F77;
   font-family: manga_font;
