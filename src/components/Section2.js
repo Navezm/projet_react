@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavSection from "./section/NavSection";
 import Updates from "./section/Updates";
 import Categorie from "./section/Categorie";
+import TopManga from "./section/TopManga";
 export class Section2 extends Component {
     render() {
         return (
@@ -14,6 +15,7 @@ export class Section2 extends Component {
                                 <Updates />
                             </div>
                             <div className="col-4">
+                                <TopManga />
                                 <Categorie />
                             </div>
                     </div>
