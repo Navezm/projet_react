@@ -29,8 +29,8 @@ function MyVerticallyCenteredModal(props) {
 let ListeChap = (props) => {
     const [modalShow, setModalShow] = React.useState(false);
     return(
-        <div className="row mt-lg-5 mt-sm-4">
-            <div className="col-6 p-0 m-0 d-flex">
+        <div className="d-flex mt-lg-5 mt-sm-4">
+            <div className="p-0 m-0 d-flex">
                 <button className="btn mx-3 btn_rss" onClick={()=>setModalShow(true)}>Description</button>
                 <button className="btn mx-3 btn_sub">Lire les scans</button>
             </div>

@@ -57,3 +57,17 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    #span_manga{
+        font-size: 30px;
+    }
+
+    #div_colonne_info{
+        display: none;
+    }
+
+    #div_manga_description{
+        margin-top: 5%;
+    }
+}

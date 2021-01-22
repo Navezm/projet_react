@@ -26,14 +26,14 @@ class ExplicationManga extends Component{
                         
                         <div className="col-lg-9 col-sm-12 mt-lg-0 mt-sm-3">
                             <div className="row mt-sm-2">
-                                <div className="col-lg-2 col-sm-3">
+                                <div id="div_colonne_info" className="col-lg-2 col-sm-3">
                                     {
                                         this.props.colonneTitre.map((elem)=>{
                                             return(<ExplPart1 titre={elem}/>)
                                         })
                                     }
                                 </div>
-                                <div className="col-lg-10 col-sm-9 rounded">
+                                <div id="div_manga_description" className="col-lg-10 col-sm-9 rounded">
                                     {
                                         this.props.manga.map((elem)=>{
                                             return(<ExplPart2 content={elem}/>)
