@@ -20,20 +20,20 @@ class ExplicationManga extends Component{
 
                     {/* Présentation manga */}
                     <div className="row p-2">
-                        <div className="col-lg-3 col-sm-12">
+                        <div className="col-lg-3 col-sm-12 div_img_manga">
                             <ImageManga src={this.props.imageManga} />
                         </div>
                         
-                        <div className="col-lg-9 col-sm-12">
+                        <div className="col-lg-9 col-sm-12 mt-lg-0 mt-sm-3">
                             <div className="row mt-sm-2">
-                                <div className="col-2">
+                                <div className="col-lg-2 col-sm-3">
                                     {
                                         this.props.colonneTitre.map((elem)=>{
                                             return(<ExplPart1 titre={elem}/>)
                                         })
                                     }
                                 </div>
-                                <div className="col-10 rounded">
+                                <div className="col-lg-10 col-sm-9 rounded">
                                     {
                                         this.props.manga.map((elem)=>{
                                             return(<ExplPart2 content={elem}/>)

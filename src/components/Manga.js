@@ -23,7 +23,7 @@ class Manga extends Component {
                 "Psyren", "サイレン, ＰＳＹЯＥＮ, PSYREN-サイレン-, ســايــرن", "En cours", "Japon", "Action, Shonen, Aventure, Fantasy, Psychologique, Supernaturel", "Iwashiro Toshiaki"
             ],
             [
-                "Shingeki no Kyojin", "进击的巨人, 進撃の巨人, Advancing Giants, Attack on Titan, Shingeki no Kyodai", "En cours", "Japon", "Drame, Fantasy, Horreur, Mystère, Supernaturel, Tragedie, Action", "Hajime Isayama"
+                "Shingeki no Kyojin", "进击的巨人, 進撃の巨人, Advancing Giants, Attack on Titan", "En cours", "Japon", "Drame, Fantasy, Horreur, Mystère, Supernaturel, Tragedie, Action", "Hajime Isayama"
             ],
             [
                 "Tower of God", "신의 탑", "En cours", "Corée", "Action, Drame, Fantasy, Shonen, Mystère", "Slave In Utero"
@@ -32,10 +32,10 @@ class Manga extends Component {
                 "Death Note", "-", "Fini", "Japon", "Drame, Mystère, Psychologique, Supernaturel, Tragedie", "Ohba Tsugumi"
             ],
             [
-                "Hajime no Ippo", "Иппо, Первый Шаг, はじめの一歩, 第一神拳, Fight Ippo !!, Fighting Spirit, Hajime no Ippo. The Fighting!, HnI, Ippo", "En cours", "Japon", "Action, Sport, Comédie, Shonen", "Morikawa Jyoji"
+                "Hajime no Ippo", "はじめの一歩, 第一神拳, Fight Ippo !!, The Fighting!, HnI, Ippo", "En cours", "Japon", "Action, Sport, Comédie, Shonen", "Morikawa Jyoji"
             ],
             [
-                "Demon Slayer", "Blade of Demon, Destruction Demon Slayer Demon Slayer: Kimetsu no Yaiba", "En cours", "Japon", "Action, Drame, Fantastique, Historique", "Gotouge Koyoharu"
+                "Demon Slayer", "Destruction Demon Slayer Demon Slayer: Kimetsu no Yaiba", "En cours", "Japon", "Action, Drame, Fantastique, Historique", "Gotouge Koyoharu"
             ],
             [
                 "Tokyo Ghoul", "Tokyo Kushu, Tokyo Kusyu, Toukyou Kushu (Ghoul)", "Fini", "Japon", "Horreur, Mystère, Psychologique, Supernaturel", "Ishida Sui"
@@ -65,7 +65,7 @@ class Manga extends Component {
             <Fragment>
                 {/* Section manga */}
                 <section className="container my-4">
-                    <h1 className="text-center text-uppercase"><span id="span_manga" className="p-2 p-sm-0 rounded">mangathèque</span></h1>
+                    <h1 className="text-center text-uppercase"><span id="span_manga" className="p-2 p-sm-0">mangatheque</span></h1>
                     {/* Boruto */}
                     <ExplicationManga chapitre={this.state.description[9].boruto} titreManga={this.state.titre[9]} imageManga={this.state.image[9]} colonneTitre={this.state.colonneTitre} manga={this.state.manga[9]}/>
                     {/* Boruto */}

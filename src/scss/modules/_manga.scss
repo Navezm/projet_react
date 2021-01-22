@@ -1,7 +1,11 @@
 #span_manga{
     color: $color5;
-    border: solid 1px $color5;
+    // border-bottom: solid 1px $color5;
+    font-family: manga_font;
+}
 
+.img_manga{
+    width: 100%;
 }
 
 .div_explication_manga{
@@ -41,4 +45,15 @@
 
 #root{
     background-color: black;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    .img_manga{
+        width: 50%;
+    }
+
+    .div_img_manga{
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,6 +1,15 @@
+@font-face {
+  font-family: manga_font;
+  src: url(../fonts/mangat.ttf);
+}
+
 #span_manga {
   color: #8C7F77;
-  border: solid 1px #8C7F77;
+  font-family: manga_font;
+}
+
+.img_manga {
+  width: 100%;
 }
 
 .div_explication_manga {
@@ -40,4 +49,14 @@
 
 #root {
   background-color: black;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .img_manga {
+    width: 50%;
+  }
+  .div_img_manga {
+    display: flex;
+    justify-content: center;
+  }
 }
