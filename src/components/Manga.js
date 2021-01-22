@@ -7,8 +7,11 @@ import ImageManga from './manga/ImageManga';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Manga extends Component {
-    
-
+    state = {
+        image: [
+            
+        ]
+    }
     render(){
         return(
             <Fragment>
