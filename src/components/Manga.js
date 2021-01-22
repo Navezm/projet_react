@@ -65,7 +65,7 @@ class Manga extends Component {
             <Fragment>
                 {/* Section manga */}
                 <section className="container my-4">
-                    <h1 className="text-center text-uppercase"><span id="span_manga" className="p-2 rounded">mangathèque</span></h1>
+                    <h1 className="text-center text-uppercase"><span id="span_manga" className="p-2 p-sm-0 rounded">mangathèque</span></h1>
                     {/* Boruto */}
                     <ExplicationManga chapitre={this.state.description[9].boruto} titreManga={this.state.titre[9]} imageManga={this.state.image[9]} colonneTitre={this.state.colonneTitre} manga={this.state.manga[9]}/>
                     {/* Boruto */}
