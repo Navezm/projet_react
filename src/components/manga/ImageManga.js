@@ -4,7 +4,7 @@ class ImageManga extends Component{
     render(){
         return(
             <Fragment>
-                <img src="./img/solo-leveling.jpg" alt="" className="w-100"/>
+                <img src={this.props.src} alt="" className="w-100"/>
             </Fragment>
         );
     };

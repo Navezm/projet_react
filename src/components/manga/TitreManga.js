@@ -12,7 +12,7 @@ class TitreManga extends Component{
             <Fragment>
                 <div className="row rounded div_titre_manga">
                     <div className="col-6 d-flex align-items-center">
-                        <h4 className="text-white m-0">Solo Leveling</h4>
+                        <h4 className="text-white m-0">{this.props.name}</h4>
                     </div>
                     <div className="col-6 d-flex justify-content-end align-items-center text-white-50">
                         <FontAwesomeIcon icon={faSmile}/> <span className="mr-3 ml-1">3251</span>
