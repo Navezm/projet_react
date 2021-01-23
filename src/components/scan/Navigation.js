@@ -7,9 +7,9 @@ class Navigation extends Component{
     render(){
         return(
             <Fragment>
-                <div className="div_nav_scan container mt-4 rounded-top">
+                <div className="div_nav_scan_top container mt-4 rounded-top">
                     <div className="row py-1">
-                        <div className="col-lg-6 col-sm-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <select className="mx-1 rounded p-1" name="chapter" id="">
                                 <option value="">Chapitre : 20</option>
                                 <option value="">Chapitre : 19</option>
@@ -38,7 +38,7 @@ class Navigation extends Component{
                             </select>
                             <a className="text-dark mx-2 rounded a_navigation" href="#"><FontAwesomeIcon icon={faInfo} /></a>
                         </div>
-                        <div className="col-lg-6 col-sm-12 d-flex justify-content-end">
+                        <div id="div_col_nav_scan" className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end">
                             <select className="mx-1 rounded p-1" name="page" id="">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -61,8 +61,8 @@ class Navigation extends Component{
                                 <option value="19">19</option>
                                 <option value="20">20</option>
                             </select>
-                            <a className="a_navigation mx-1 rounded text-dark px-2">Next</a>
-                            <a className="a_navigation mx-1 rounded text-dark px-2">Prev</a>
+                            <a className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Next</a>
+                            <a className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Prev</a>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 import Navigation from './scan/Navigation';
 import Page from './scan/Page';
 import NavEnd from './scan/NavEnd';
+import ScanInfo from './scan/ScanInfo';
 
 class Scan extends Component{
     state = {
@@ -31,6 +32,10 @@ class Scan extends Component{
                     {/* NavEnd */}
                     <NavEnd />
                     {/* NavEnd */}
+
+                    {/* Info Scan */}
+                    <ScanInfo />
+                    {/* Info Scan */}
                 </section>
             </Fragment>
         )
