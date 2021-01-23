@@ -15,10 +15,6 @@ const Ancre = () => {
         }
     };
 
-    // const scrollToTop = () => {
-    //     window.scrollToTop({top: 0, behavior: "smooth"});
-    // }
-
     const scrollToTop = () => window.scrollTo({top: 0, behavior: "smooth"});
 
     window.addEventListener("scroll", checkScrollTop)

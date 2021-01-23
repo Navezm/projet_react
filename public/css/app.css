@@ -76,6 +76,16 @@
   transition: .4s;
 }
 
+.couleur3 {
+  color: white;
+  font-family: manga_font;
+  font-size: 1.5rem;
+}
+
+.couleur3:hover {
+  color: #B55757;
+}
+
 .couleur2 {
   color: black;
 }
@@ -187,6 +197,14 @@ a:hover {
   color: red;
 }
 
+#root {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 .div_nav_scan {
   background-color: #8C7F77;
   height: 4vh;
@@ -203,10 +221,6 @@ a:hover {
 
 .btn_prev {
   background-color: #DDDDDD;
-}
-
-#root {
-  background-color: black;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {

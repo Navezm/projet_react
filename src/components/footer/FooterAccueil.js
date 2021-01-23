@@ -6,7 +6,7 @@ export class FooterAccueil extends Component {
     render() {
         return (
             <Fragment>
-                <footer className="container mt-5 bas">
+                <footer className="container mt-5 bas rounded-top">
                     <div className="row d-flex text-center border-bottom">
                         <div className="col-4 mt-3 mb-3">
                             <a href="" className="couleur2">Confidentialité</a>
