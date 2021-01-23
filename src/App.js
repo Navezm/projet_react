@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Ancre from "./components/Ancre";
+import Manga from './components/Manga';
+import Scan from './components/Scan';
 export class App extends Component {
   render() {
     return (
@@ -15,5 +17,3 @@ export class App extends Component {
     )
   }
 }
-
-export default App
