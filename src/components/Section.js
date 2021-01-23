@@ -16,12 +16,12 @@ export class Section extends Component {
                     </div>
                 </section>
                 <section className="container">
-                    <div className="row">
+                    <div className="row responsiveSection">
                         {/* <NavSection /> */}
-                        <div className="col-8 pl-0">
+                        <div className="col-8 pl-0 responsiveUpdates">
                             <Updates />
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 responsiveUpdates">
                             <TopManga />
                             <Categorie />
                         </div>

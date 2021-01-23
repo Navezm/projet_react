@@ -53,6 +53,8 @@
 
 .sorties {
     background-color: $color3;
+    border-radius: 10px;
+
 }
 
 .evenement:hover {
@@ -108,4 +110,41 @@
 
 .bas {
     background-color: #F4F1E8;
+}
+
+// Media Queries Tablette
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .responsiveSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsiveUpdates {
+        max-width: none!important;
+        padding-left: 0!important;
+        margin-bottom: 24px;
+    }
+
+}
+
+// Media Queries GSM
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+
+    .responsiveSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsiveUpdates {
+        max-width: none!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin-bottom: 24px;
+    }
+
+    input {
+        display: none;
+    }
 }
