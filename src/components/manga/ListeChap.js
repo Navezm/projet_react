@@ -32,7 +32,7 @@ let ListeChap = (props) => {
         <div className="d-flex mt-lg-5 mt-sm-4">
             <div className="p-0 m-0 d-flex">
                 <button className="btn mx-3 btn_rss" onClick={()=>setModalShow(true)}>Description</button>
-                <button className="btn mx-3 btn_sub">Lire les scans</button>
+                <button className="btn mx-3 btn_sub"><a className="text-dark" href="https://www.readmng.com/manga-list">Lire les scans</a></button>
             </div>
 
             <MyVerticallyCenteredModal name={props.name} chapitre={props.chapitre}
