@@ -11,9 +11,13 @@ export class App extends Component {
       <div>
         <Header />
         <Section />
-        <Footer />
         <Ancre />
+        <Manga />
+        <Scan />
+        <Footer />
       </div>
     )
   }
 }
+
+export default App;
