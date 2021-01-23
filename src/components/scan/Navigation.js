@@ -40,7 +40,7 @@ class Navigation extends Component{
                             <a className="text-dark mx-2 rounded a_navigation" href="#"><FontAwesomeIcon icon={faInfo} /></a>
                         </div>
                         <div id="div_col_nav_scan" className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end">
-                            <select className="mx-1 rounded p-1" name="page" id="">
+                            <select onChange={this.props.fctNumber} className="mx-1 rounded p-1" name="page" id="">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -62,8 +62,8 @@ class Navigation extends Component{
                                 <option value="19">19</option>
                                 <option value="20">20</option>
                             </select>
-                            <a className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Next</a>
-                            <a className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Prev</a>
+                            <a onClick={this.props.fctNext} className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Next</a>
+                            <a onClick={this.props.fctPrev} className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Prev</a>
                         </div>
                     </div>
                 </div>

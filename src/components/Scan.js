@@ -18,20 +18,101 @@ class Scan extends Component{
                     imgScan[0].parentElement.style.display = "block";
                 } else {
                     imgScan[i].parentElement.style.display = "none";
-                }
-            }
+                };
+            };
         } else {
             for (let e = 0; e < imgScan.length; e++) {
                 imgScan[e].parentElement.style.display = "block";
-            }
-        }
-    }
+            };
+        };
+    };
+    numberFunction = (e) => {
+        let imgScan = document.getElementsByClassName("imgScan");
+        for (let i = 0; i < 20; i++) {
+            if(e.target.value == 1){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[0].parentElement.style.display = "block";
+            } else if(e.target.value == 2){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[1].parentElement.style.display = "block";
+            }  else if(e.target.value == 3){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[2].parentElement.style.display = "block";
+            }  else if(e.target.value == 4){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[3].parentElement.style.display = "block";
+            }  else if(e.target.value == 5){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[4].parentElement.style.display = "block";
+            }  else if(e.target.value == 6){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[5].parentElement.style.display = "block";
+            }  else if(e.target.value == 7){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[6].parentElement.style.display = "block";
+            }  else if(e.target.value == 8){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[7].parentElement.style.display = "block";
+            }  else if(e.target.value == 9){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[8].parentElement.style.display = "block";
+            }  else if(e.target.value == 10){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[9].parentElement.style.display = "block";
+            }  else if(e.target.value == 11){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[10].parentElement.style.display = "block";
+            }  else if(e.target.value == 12){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[11].parentElement.style.display = "block";
+            }  else if(e.target.value == 13){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[12].parentElement.style.display = "block";
+            }  else if(e.target.value == 14){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[13].parentElement.style.display = "block";
+            }  else if(e.target.value == 15){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[14].parentElement.style.display = "block";
+            }  else if(e.target.value == 16){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[15].parentElement.style.display = "block";
+            }  else if(e.target.value == 17){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[16].parentElement.style.display = "block";
+            }  else if(e.target.value == 18){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[17].parentElement.style.display = "block";
+            }  else if(e.target.value == 19){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[18].parentElement.style.display = "block";
+            }  else if(e.target.value == 20){
+                imgScan[i].parentElement.style.display = "none";
+                imgScan[19].parentElement.style.display = "block";
+            };
+        };
+    };
+    btnPrev = (e) => {
+        let imgScan = document.getElementsByClassName("imgScan");
+
+    };
+    btnNext = () => {
+        let imgScan = document.getElementsByClassName("imgScan");
+        for (let i = 0; i < imgScan.length; i++) {
+            if(imgScan[i].parentElement.style.display == "block"){
+                const count = i;
+                console.log(count+1);
+                imgScan[i+1].parentElement.style.display = "block";
+                imgScan[i].parentElement.style.display = "none";
+            };
+        };
+    };
     render(){
         return(
             <Fragment> 
                 <section className="py-2">
                     {/* Navigation */}
-                    <Navigation fctPage={this.allOnePage}/>
+                    <Navigation fctPage={this.allOnePage} fctNumber={this.numberFunction} fctPrev={this.btnPrev} fctNext={this.btnNext}/>
                     {/* Navigation */}
 
                     {/* Lecture */}
