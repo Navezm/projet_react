@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInfo} from '@fortawesome/free-solid-svg-icons';
 
 class Navigation extends Component{
+   
     render(){
         return(
             <Fragment>
@@ -32,9 +33,9 @@ class Navigation extends Component{
                                 <option value="">Chapitre : 2</option>
                                 <option value="">Chapitre : 1</option>
                             </select>
-                            <select className="mx-1 rounded p-1" name="page" id="">
-                                <option value="one_page">One Page</option>
+                            <select onChange={this.props.fctPage} className="mx-1 rounded p-1" name="page" id="">
                                 <option value="all_page">All Page</option>
+                                <option value="one_page">One Page</option>
                             </select>
                             <a className="text-dark mx-2 rounded a_navigation" href="#"><FontAwesomeIcon icon={faInfo} /></a>
                         </div>

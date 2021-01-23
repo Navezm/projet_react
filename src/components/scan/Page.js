@@ -6,7 +6,7 @@ class Page extends Component{
             <Fragment>
                 <section className="container bg-white">
                     <div className="text-center py-lg-4 py-2">
-                        <img src={this.props.image} value={this.props.value} className="w-100" alt=""/>
+                        <img src={this.props.image} value={this.props.value} className="w-100 imgScan" alt=""/>
                     </div>
                 </section>
             </Fragment>
