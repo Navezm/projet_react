@@ -1,1 +1,110 @@
-/* No CSS */
+@font-face {
+  font-family: manga_font;
+  src: url(../fonts/mangat.ttf);
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.div_nav_scan {
+  background-color: #8C7F77;
+  height: 4vh;
+}
+
+.div_nav_scan_top {
+  background-color: #8C7F77;
+}
+
+.a_navigation {
+  background-color: #DDDDDD;
+  padding: 1%;
+}
+
+.btn_prev {
+  background-color: #DDDDDD;
+}
+
+#root {
+  background-color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #div_col_nav_scan {
+    margin-top: 2%;
+  }
+  .a_navigation_resp {
+    padding: 3%;
+  }
+}
+
+#span_manga {
+  color: #8C7F77;
+  font-family: manga_font;
+}
+
+.img_manga {
+  width: 100%;
+}
+
+.div_explication_manga {
+  background-color: #F2F2F0;
+}
+
+.div_titre_manga {
+  background-color: #8C7F77;
+}
+
+.btn_chap {
+  border: solid 1px #637162 !important;
+}
+
+.btn_chap:hover {
+  color: white !important;
+  background-color: #637162;
+}
+
+.btn_rss {
+  border: solid 1px #637162 !important;
+}
+
+.btn_rss:hover {
+  color: white !important;
+  background-color: #637162;
+}
+
+.btn_sub {
+  border: solid 1px #A6ACB4 !important;
+}
+
+.btn_sub:hover {
+  color: white !important;
+  background-color: #A6ACB4;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .img_manga {
+    width: 50%;
+  }
+  .div_img_manga {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #span_manga {
+    font-size: 30px;
+  }
+  #div_colonne_info {
+    display: none;
+  }
+  #div_manga_description {
+    margin-top: 5%;
+  }
+}

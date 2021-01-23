@@ -1,0 +1,31 @@
+.div_nav_scan{
+    background-color: $color5;
+    height: 4vh;
+}
+
+.div_nav_scan_top{
+    background-color: $color5;
+}
+
+.a_navigation{
+    background-color: #DDDDDD;
+    padding: 1%;
+}
+
+.btn_prev{
+    background-color: #DDDDDD;
+}
+
+#root{
+    background-color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    #div_col_nav_scan{
+        margin-top: 2%;
+    }
+
+    .a_navigation_resp{
+        padding: 3%;
+    }
+}
