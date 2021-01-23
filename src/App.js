@@ -1,16 +1,19 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Header from './components/Header';
+import Section from "./components/Section";
+import Footer from "./components/Footer";
+import Ancre from "./components/Ancre";
 import Manga from './components/Manga';
 import Scan from './components/Scan';
-
-class App extends Component {
-  render(){
+export class App extends Component {
+  render() {
     return (
-      <div className="App">
-        {/* <Manga /> */}
-        <Scan />
+      <div>
+        <Header />
+        <Section />
+        <Footer />
+        <Ancre />
       </div>
-    );
-  };
-};
-
-export default App;
+    )
+  }
+}
