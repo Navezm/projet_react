@@ -92,7 +92,7 @@
 }
 
 .carousel-inner {
-  height: 30vh !important;
+  height: 35vh !important;
 }
 
 .carousel-indicators li {
@@ -107,6 +107,18 @@
   background-color: #F4F1E8;
 }
 
+.carouselTablette {
+  display: none;
+}
+
+.carouselGsm {
+  display: none;
+}
+
+.tailleDiv {
+  height: 15vh;
+}
+
 @media screen and (min-width: 600px) and (max-width: 991px) {
   .responsiveSection {
     flex-direction: column;
@@ -116,6 +128,12 @@
     max-width: none !important;
     padding-left: 0 !important;
     margin-bottom: 24px;
+  }
+  .carouselTablette {
+    display: block;
+  }
+  .carton {
+    display: none;
   }
 }
 
@@ -132,6 +150,15 @@
   }
   input {
     display: none;
+  }
+  .carouselTablette {
+    display: none;
+  }
+  .carton {
+    display: none;
+  }
+  .carouselGsm {
+    display: block;
   }
 }
 
