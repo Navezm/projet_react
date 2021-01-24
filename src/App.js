@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+
 export class App extends Component {
   render() {
     return (
@@ -23,7 +24,7 @@ export class App extends Component {
               <Link className="navHome couleur3" to="/scan">SCAN</Link>
             </nav>
             <div>
-                <input type="text" placeholder="Chercher par manga"/>
+              <input type="text" placeholder="Chercher par manga"/>
             </div>
           </section>
         </header>
@@ -41,8 +42,8 @@ export class App extends Component {
         <Ancre />
         <Footer />
       </Router>
-    )
-  }
-}
+    );
+  };
+};
 
 export default App;

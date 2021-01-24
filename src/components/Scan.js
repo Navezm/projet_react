@@ -94,17 +94,24 @@ class Scan extends Component{
     };
     btnPrev = (e) => {
         let imgScan = document.getElementsByClassName("imgScan");
-
+        for (let i = 0; i < imgScan.length; i++) {
+            if(i>0){
+                if(imgScan[i].parentElement.style.display == "block"){
+                    imgScan[i].parentElement.style.display = "none";
+                    return imgScan[i-1].parentElement.style.display =  "block";
+                };
+            }
+        };
     };
-    btnNext = () => {
+    btnNext = (e) => {
         let imgScan = document.getElementsByClassName("imgScan");
         for (let i = 0; i < imgScan.length; i++) {
-            if(imgScan[i].parentElement.style.display == "block"){
-                const count = i;
-                console.log(count+1);
-                imgScan[i+1].parentElement.style.display = "block";
-                imgScan[i].parentElement.style.display = "none";
-            };
+            if(i<19){
+                if(imgScan[i].parentElement.style.display == "block"){
+                    imgScan[i].parentElement.style.display = "none";
+                    return imgScan[i+1].parentElement.style.display =  "block";
+                };
+            }
         };
     };
     render(){

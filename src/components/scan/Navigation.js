@@ -62,8 +62,8 @@ class Navigation extends Component{
                                 <option value="19">19</option>
                                 <option value="20">20</option>
                             </select>
-                            <a onClick={this.props.fctNext} className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Next</a>
                             <a onClick={this.props.fctPrev} className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Prev</a>
+                            <a onClick={this.props.fctNext} className="btn_prev mx-1 rounded text-dark px-2 d-flex align-items-center">Next</a>
                         </div>
                     </div>
                 </div>
