@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class Manga extends Component {
     state = {
         image: [
-            "./img/solo-leveling.jpg", "./img/psyren.jpg", "./img/SnK.jpg", "./img/Tower-of-God.png", "./img/death-note.jpg", "./img/Hajime.jpg", "./img/demon_slayer.png", "./img/tokyo-ghoul.jpg", "./img/satan666.jpg", "./img/boruto.jpg",
+            "./img/solo-leveling.jpg", "./img/psyren.jpg", "./img/SnK.jpg", "./img/Tower-of-God.png", "./img/death-note.jpg", "./img/Hajime.jpg", "./img/demon_slayer.png", "./img/tokyo-ghoul.jpg", "./img/satan666.jpg", "./img/borutoM.jpg",
         ],
         titre: [
             "Solo Leveling", "Psyren", "Singeki no Kyojin", "Tower of God", "Death Note", "Hajime no Ippo", "Demon Slayer", "Tokyo Ghoul", "Satan 666", "Boruto"
